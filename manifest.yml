@@ -1,0 +1,7 @@
+---
+applications:
+- name: weatherapp_suraj
+  host: weatherapp1_suraj
+  buildpack: nodejs_buildpack
+  memory: 128M
+  command: node server
